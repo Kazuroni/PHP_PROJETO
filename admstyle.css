@@ -1,0 +1,88 @@
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: url('imagens/548006.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+}
+
+.message {
+    display: block;
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.admin-product-form-container {
+    background-color: #000;
+    padding: 20px;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.product-display {
+    margin-top: 20px;
+}
+
+.product-display-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-display-table th, .product-display-table td {
+    border: 1px solid #FFD700;
+    padding: 10px;
+}
+
+.product-display-table th {
+    background-color: #FFD700;
+    color: #000;
+    text-align: left;
+}
+
+.product-display-table td {
+    background-color: #000;
+    color: #fff;
+}
+
+.product-display-table img {
+    max-width: 100px;
+    height: auto;
+}
+
+.btn i {
+    margin-right: 5px;
+}
